@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genrelist version="1.0">
+<genres>
+	<genre>
+		<name>Electronic</name>
+		<subgenres><![CDATA[Electro,Elektro,Techno,Dance,Club,House,Dub,Disco,Funk,Trance,Industrial,Bass,Beat,Break,Acid,Jungle,Tribal,Freestyle,Goa,D'n'B,D&B,D & B,D´n´B,D`n`B,Trip Hop,Trip-Hop,Triphop,New Age,New-Age,NewAge,New Wave,NewWave,New-Wave]]></subgenres>
+		<x>314</x>
+		<y>199</y>
+		<color>00B0F0</color>
+	</genre>
+	<genre>
+		<name>Ambient &amp; Chill Out</name>
+		<subgenres><![CDATA[Ambient,Chill,Atmosphere,Downtempo,Lounge,Easy Listening,EasyListening]]></subgenres>
+		<x>123</x>
+		<y>104</y>
+		<color>FF33CC</color>
+	</genre>
+	<genre>
+		<name>World</name>
+		<subgenres><![CDATA[World,Son,Welt,Ethnic,Latin,Cumbia,Salsa,Tango,Axe,Bachata,Bolero,Gaucha,Merengue,Pagode,Sertaneja,Polka,Flamenco,Folklore,Celtic,Chanson,African,Chinese,American,Syria,Balkan,Cuban,English,Filipino,French,Greek,Hungarian,Icelandic,Indian,Iranian,Irish,Italian,Macedonian,Scottish,Turkish,Ukrainian,Russian]]></subgenres>
+		<x>669</x>
+		<y>623</y>
+		<color>FFFFFF</color>
+	</genre>
+	<genre>
+		<name>Country &amp; Folk</name>
+		<subgenres><![CDATA[Folk,Country,Swing]]></subgenres>
+		<x>903</x>
+		<y>301</y>
+		<color>996600</color>
+	</genre>
+	<genre>
+		<name>Reggae</name>
+		<subgenres><![CDATA[Reggae,Reggea,Raggae,Raggea,Ragga,Raggy,Ragae]]></subgenres>
+		<x>357</x>
+		<y>583</y>
+		<color>99CC00</color>
+	</genre>
+	<genre>
+		<name>Hip Hop</name>
+		<subgenres><![CDATA[Rap,Gangsta,Hip-Hop,HipHop,Hip-Hop]]></subgenres>
+		<x>306</x>
+		<y>396</y>
+		<color>FF0066</color>
+	</genre>
+	<genre>
+		<name>Soul &amp; R'n'B</name>
+		<subgenres><![CDATA[Soul,RnB,R'n'B,R&B,R & B,RandB,Rhythm & Blues,Rhythm and Blues,Rhythm'n'Blues]]></subgenres>
+		<x>522</x>
+		<y>472</y>
+		<color>7030A0</color>
+	</genre>
+	<genre>
+		<name>Metal &amp; Punk</name>
+		<subgenres><![CDATA[Metal,Punk,Ska,Hardrock,Hard Rock]]></subgenres>
+		<x>895</x>
+		<y>113</y>
+		<color>7F7F7F</color>
+	</genre>
+	<genre>
+		<name>Pop</name>
+		<subgenres><![CDATA[Pop,Austro,Charts,Schlager,Ballad,Top,60,Sixties,Beatles,70,Seventies,80,Eighties,90,Nineties]]></subgenres>
+		<x>522</x>
+		<y>275</y>
+		<color>FFFF00</color>
+	</genre>
+	<genre>
+		<name>Rock</name>
+		<subgenres><![CDATA[Rock,Acoustic]]></subgenres>
+		<x>726</x>
+		<y>242</y>
+		<color>CC0000</color>
+	</genre>
+	<genre>
+		<name>Classical</name>
+		<subgenres><![CDATA[Contemporary,Classic,Klassik,Klassisch,Musical,Opera,Orchestra,Celtic,Medieval,Renaissance,Baroque,Romantic,Impressionism,Modernism,Experimentalism,Futurism,Expressionism,Atonality,Twelve-tone,Serialism,Musique concr,Romanticism,Neoclassicism,Klassik,Piano,Symphonie,Symphony]]></subgenres>
+		<x>903</x>
+		<y>632</y>
+		<color>4013BD</color>
+	</genre>
+	<genre>
+		<name>Alternative &amp; Indie</name>
+		<subgenres><![CDATA[Alternative,Alt.Rock,Alt. Rock,AlternRock,Indie,Grunge,Crossover,Singer,Songwriter,Emo,Garage,LoFi,Lo-Fi]]></subgenres>
+		<x>600</x>
+		<y>84</y>
+		<color>FF6600</color>
+	</genre>
+	<genre>
+		<name>Jazz &amp; Blues</name>
+		<subgenres><![CDATA[Jazz,Blues,Bebop,Dixieland,Bigbeat,Big Beat]]></subgenres>
+		<x>800</x>
+		<y>462</y>
+		<color>00B050</color>
+	</genre>
+	<genre>
+		<name>Speech</name>
+		<subgenres><![CDATA[Speech,Book,Podcast,Comedy,Voice,Audiobook,Hörbuch]]></subgenres>
+		<x>141</x>
+		<y>480</y>
+		<color>FFFF66</color>
+	</genre>
+	<genre>
+		<name>Other</name>
+		<subgenres><![CDATA[Unbekannt,Other,Misc,]]></subgenres>
+		<x>97</x>
+		<y>633</y>
+		<color>B9CDE5</color>
+	</genre>
+</genres>
+</genrelist>
+
+

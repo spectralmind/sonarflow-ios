@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:sonarflow/sonarflow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:bubbleview/bubbleview.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:smartist/src/SMArtist.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sonarflow/../facebook/src/facebook-ios-sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:cocoalibspotify/iOS Library/CocoaLibSpotify iOS Library.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:OCMock"
+      name = "OCMock">
+      <Group
+         location = "group:OCMock"
+         name = "OCMock">
+         <FileRef
+            location = "group:NSNotificationCenter+OCMAdditions.h">
+         </FileRef>
+         <FileRef
+            location = "group:OCMArg.h">
+         </FileRef>
+         <FileRef
+            location = "group:OCMConstraint.h">
+         </FileRef>
+         <FileRef
+            location = "group:OCMock.h">
+         </FileRef>
+         <FileRef
+            location = "group:OCMockObject.h">
+         </FileRef>
+         <FileRef
+            location = "group:OCMockRecorder.h">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:libOCMock.a">
+      </FileRef>
+   </Group>
+</Workspace>

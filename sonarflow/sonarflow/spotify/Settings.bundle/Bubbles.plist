@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Appearance</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>bubbles.enable_count_display</string>
+			<key>Title</key>
+			<string>Show Track Number</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Cover Size</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>50</integer>
+			<key>Key</key>
+			<string>bubbles.cover_size</string>
+			<key>MaximumValue</key>
+			<integer>200</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Size to show title</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>49</integer>
+			<key>Key</key>
+			<string>bubbles.size_to_show_title</string>
+			<key>MaximumValue</key>
+			<integer>200</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Size to show children</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>300</integer>
+			<key>Key</key>
+			<string>bubbles.size_to_show_children</string>
+			<key>MaximumValue</key>
+			<integer>1000</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Factor to regular size to show children on iPhone</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<real>0.7</real>
+			<key>Key</key>
+			<string>bubbles.size_to_show_children_iphone_factor</string>
+			<key>MaximumValue</key>
+			<real>1</real>
+			<key>MinimumValue</key>
+			<real>0</real>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Font size</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>12</integer>
+			<key>Key</key>
+			<string>bubbles.font_size</string>
+			<key>MaximumValue</key>
+			<integer>30</integer>
+			<key>MinimumValue</key>
+			<integer>6</integer>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

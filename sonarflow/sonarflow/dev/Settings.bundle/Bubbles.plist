@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Max. radius</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>260</integer>
+			<key>Key</key>
+			<string>bubbles.max_bubble_radius</string>
+			<key>MaximumValue</key>
+			<integer>1000</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Children radius factor</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<real>0.55</real>
+			<key>Key</key>
+			<string>bubbles.children_radius_factor</string>
+			<key>MaximumValue</key>
+			<integer>1</integer>
+			<key>MinimumValue</key>
+			<real>0.1</real>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Size to show text</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<real>0.06</real>
+			<key>Key</key>
+			<string>bubbles.size_ratio_to_show_text</string>
+			<key>MaximumValue</key>
+			<real>0.25</real>
+			<key>MinimumValue</key>
+			<real>0.01</real>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Size to show children</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<real>0.7</real>
+			<key>Key</key>
+			<string>bubbles.size_ratio_to_show_children</string>
+			<key>MaximumValue</key>
+			<integer>1</integer>
+			<key>MinimumValue</key>
+			<real>0.01</real>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Max. text length</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>30</integer>
+			<key>Key</key>
+			<string>bubbles.max_text_length</string>
+			<key>MaximumValue</key>
+			<integer>50</integer>
+			<key>MinimumValue</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Font size</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>12</integer>
+			<key>Key</key>
+			<string>bubbles.font_size</string>
+			<key>MaximumValue</key>
+			<integer>30</integer>
+			<key>MinimumValue</key>
+			<integer>6</integer>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

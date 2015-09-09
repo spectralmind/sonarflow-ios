@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Search iTunes Store</string>
+			<key>Key</key>
+			<string>search_store</string>
+			<key>DefaultValue</key>
+			<string>local</string>
+			<key>Titles</key>
+			<array>
+				<string>Use Local iTunes Store</string>
+				<string>Andorra</string>
+				<string>United Arab Emirates</string>
+				<string>Afghanistan</string>
+				<string>Antigua and Barbuda</string>
+				<string>Anguilla</string>
+				<string>Albania</string>
+				<string>Armenia</string>
+				<string>Angola</string>
+				<string>Antarctica</string>
+				<string>Argentina</string>
+				<string>American Samoa</string>
+				<string>Austria</string>
+				<string>Australia</string>
+				<string>Aruba</string>
+				<string>Åland Islands</string>
+				<string>Azerbaijan</string>
+				<string>Bosnia and Herzegovina</string>
+				<string>Barbados</string>
+				<string>Bangladesh</string>
+				<string>Belgium</string>
+				<string>Burkina Faso</string>
+				<string>Bulgaria</string>
+				<string>Bahrain</string>
+				<string>Burundi</string>
+				<string>Benin</string>
+				<string>Saint Barthélemy</string>
+				<string>Bermuda</string>
+				<string>Brunei Darussalam</string>
+				<string>Bolivia, Plurinational State of</string>
+				<string>Bonaire, Sint Eustatius and Saba</string>
+				<string>Brazil</string>
+				<string>Bahamas</string>
+				<string>Bhutan</string>
+				<string>Bouvet Island</string>
+				<string>Botswana</string>
+				<string>Belarus</string>
+				<string>Belize</string>
+				<string>Canada</string>
+				<string>Cocos (Keeling) Islands</string>
+				<string>Congo, the Democratic Republic of the</string>
+				<string>Central African Republic</string>
+				<string>Congo</string>
+				<string>Switzerland</string>
+				<string>Côte d&apos;Ivoire</string>
+				<string>Cook Islands</string>
+				<string>Chile</string>
+				<string>Cameroon</string>
+				<string>China</string>
+				<string>Colombia</string>
+				<string>Costa Rica</string>
+				<string>Cuba</string>
+				<string>Cape Verde</string>
+				<string>Curaçao</string>
+				<string>Christmas Island</string>
+				<string>Cyprus</string>
+				<string>Czech Republic</string>
+				<string>Germany</string>
+				<string>Djibouti</string>
+				<string>Denmark</string>
+				<string>Dominica</string>
+				<string>Dominican Republic</string>
+				<string>Algeria</string>
+				<string>Ecuador</string>
+				<string>Estonia</string>
+				<string>Egypt</string>
+				<string>Western Sahara</string>
+				<string>Eritrea</string>
+				<string>Spain</string>
+				<string>Ethiopia</string>
+				<string>Finland</string>
+				<string>Fiji</string>
+				<string>Falkland Islands (Malvinas)</string>
+				<string>Micronesia, Federated States of</string>
+				<string>Faroe Islands</string>
+				<string>France</string>
+				<string>Gabon</string>
+				<string>United Kingdom</string>
+				<string>Grenada</string>
+				<string>Georgia</string>
+				<string>French Guiana</string>
+				<string>Guernsey</string>
+				<string>Ghana</string>
+				<string>Gibraltar</string>
+				<string>Greenland</string>
+				<string>Gambia</string>
+				<string>Guinea</string>
+				<string>Guadeloupe</string>
+				<string>Equatorial Guinea</string>
+				<string>Greece</string>
+				<string>South Georgia and the South Sandwich Islands</string>
+				<string>Guatemala</string>
+				<string>Guam</string>
+				<string>Guinea-Bissau</string>
+				<string>Guyana</string>
+				<string>Hong Kong</string>
+				<string>Heard Island and McDonald Islands</string>
+				<string>Honduras</string>
+				<string>Croatia</string>
+				<string>Haiti</string>
+				<string>Hungary</string>
+				<string>Indonesia</string>
+				<string>Ireland</string>
+				<string>Israel</string>
+				<string>Isle of Man</string>
+				<string>India</string>
+				<string>British Indian Ocean Territory</string>
+				<string>Iraq</string>
+				<string>Iran, Islamic Republic of</string>
+				<string>Iceland</string>
+				<string>Italy</string>
+				<string>Jersey</string>
+				<string>Jamaica</string>
+				<string>Jordan</string>
+				<string>Japan</string>
+				<string>Kenya</string>
+				<string>Kyrgyzstan</string>
+				<string>Cambodia</string>
+				<string>Kiribati</string>
+				<string>Comoros</string>
+				<string>Saint Kitts and Nevis</string>
+				<string>Korea, Democratic People&apos;s Republic of</string>
+				<string>Korea, Republic of</string>
+				<string>Kuwait</string>
+				<string>Cayman Islands</string>
+				<string>Kazakhstan</string>
+				<string>Lao People&apos;s Democratic Republic</string>
+				<string>Lebanon</string>
+				<string>Saint Lucia</string>
+				<string>Liechtenstein</string>
+				<string>Sri Lanka</string>
+				<string>Liberia</string>
+				<string>Lesotho</string>
+				<string>Lithuania</string>
+				<string>Luxembourg</string>
+				<string>Latvia</string>
+				<string>Libya</string>
+				<string>Morocco</string>
+				<string>Monaco</string>
+				<string>Moldova, Republic of</string>
+				<string>Montenegro</string>
+				<string>Saint Martin (French part)</string>
+				<string>Madagascar</string>
+				<string>Marshall Islands</string>
+				<string>Macedonia, the former Yugoslav Republic of</string>
+				<string>Mali</string>
+				<string>Myanmar</string>
+				<string>Mongolia</string>
+				<string>Macao</string>
+				<string>Northern Mariana Islands</string>
+				<string>Martinique</string>
+				<string>Mauritania</string>
+				<string>Montserrat</string>
+				<string>Malta</string>
+				<string>Mauritius</string>
+				<string>Maldives</string>
+				<string>Malawi</string>
+				<string>Mexico</string>
+				<string>Malaysia</string>
+				<string>Mozambique</string>
+				<string>Namibia</string>
+				<string>New Caledonia</string>
+				<string>Niger</string>
+				<string>Norfolk Island</string>
+				<string>Nigeria</string>
+				<string>Nicaragua</string>
+				<string>Netherlands</string>
+				<string>Norway</string>
+				<string>Nepal</string>
+				<string>Nauru</string>
+				<string>Niue</string>
+				<string>New Zealand</string>
+				<string>Oman</string>
+				<string>Panama</string>
+				<string>Peru</string>
+				<string>French Polynesia</string>
+				<string>Papua New Guinea</string>
+				<string>Philippines</string>
+				<string>Pakistan</string>
+				<string>Poland</string>
+				<string>Saint Pierre and Miquelon</string>
+				<string>Pitcairn</string>
+				<string>Puerto Rico</string>
+				<string>Palestinian Territory, Occupied</string>
+				<string>Portugal</string>
+				<string>Palau</string>
+				<string>Paraguay</string>
+				<string>Qatar</string>
+				<string>Réunion</string>
+				<string>Romania</string>
+				<string>Serbia</string>
+				<string>Russian Federation</string>
+				<string>Rwanda</string>
+				<string>Saudi Arabia</string>
+				<string>Solomon Islands</string>
+				<string>Seychelles</string>
+				<string>Sudan</string>
+				<string>Sweden</string>
+				<string>Singapore</string>
+				<string>Saint Helena, Ascension and Tristan da Cunha</string>
+				<string>Slovenia</string>
+				<string>Svalbard and Jan Mayen</string>
+				<string>Slovakia</string>
+				<string>Sierra Leone</string>
+				<string>San Marino</string>
+				<string>Senegal</string>
+				<string>Somalia</string>
+				<string>Suriname</string>
+				<string>South Sudan</string>
+				<string>Sao Tome and Principe</string>
+				<string>El Salvador</string>
+				<string>Sint Maarten (Dutch part)</string>
+				<string>Syrian Arab Republic</string>
+				<string>Swaziland</string>
+				<string>Turks and Caicos Islands</string>
+				<string>Chad</string>
+				<string>French Southern Territories</string>
+				<string>Togo</string>
+				<string>Thailand</string>
+				<string>Tajikistan</string>
+				<string>Tokelau</string>
+				<string>Timor-Leste</string>
+				<string>Turkmenistan</string>
+				<string>Tunisia</string>
+				<string>Tonga</string>
+				<string>Turkey</string>
+				<string>Trinidad and Tobago</string>
+				<string>Tuvalu</string>
+				<string>Taiwan, Province of China</string>
+				<string>Tanzania, United Republic of</string>
+				<string>Ukraine</string>
+				<string>Uganda</string>
+				<string>United States Minor Outlying Islands</string>
+				<string>United States</string>
+				<string>Uruguay</string>
+				<string>Uzbekistan</string>
+				<string>Holy See (Vatican City State)</string>
+				<string>Saint Vincent and the Grenadines</string>
+				<string>Venezuela, Bolivarian Republic of</string>
+				<string>Virgin Islands, British</string>
+				<string>Virgin Islands, U.S.</string>
+				<string>Viet Nam</string>
+				<string>Vanuatu</string>
+				<string>Wallis and Futuna</string>
+				<string>Samoa</string>
+				<string>Yemen</string>
+				<string>Mayotte</string>
+				<string>South Africa</string>
+				<string>Zambia</string>
+				<string>Zimbabwe</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>local</string>
+				<string>AD</string>
+				<string>AE</string>
+				<string>AF</string>
+				<string>AG</string>
+				<string>AI</string>
+				<string>AL</string>
+				<string>AM</string>
+				<string>AO</string>
+				<string>AQ</string>
+				<string>AR</string>
+				<string>AS</string>
+				<string>AT</string>
+				<string>AU</string>
+				<string>AW</string>
+				<string>AX</string>
+				<string>AZ</string>
+				<string>BA</string>
+				<string>BB</string>
+				<string>BD</string>
+				<string>BE</string>
+				<string>BF</string>
+				<string>BG</string>
+				<string>BH</string>
+				<string>BI</string>
+				<string>BJ</string>
+				<string>BL</string>
+				<string>BM</string>
+				<string>BN</string>
+				<string>BO</string>
+				<string>BQ</string>
+				<string>BR</string>
+				<string>BS</string>
+				<string>BT</string>
+				<string>BV</string>
+				<string>BW</string>
+				<string>BY</string>
+				<string>BZ</string>
+				<string>CA</string>
+				<string>CC</string>
+				<string>CD</string>
+				<string>CF</string>
+				<string>CG</string>
+				<string>CH</string>
+				<string>CI</string>
+				<string>CK</string>
+				<string>CL</string>
+				<string>CM</string>
+				<string>CN</string>
+				<string>CO</string>
+				<string>CR</string>
+				<string>CU</string>
+				<string>CV</string>
+				<string>CW</string>
+				<string>CX</string>
+				<string>CY</string>
+				<string>CZ</string>
+				<string>DE</string>
+				<string>DJ</string>
+				<string>DK</string>
+				<string>DM</string>
+				<string>DO</string>
+				<string>DZ</string>
+				<string>EC</string>
+				<string>EE</string>
+				<string>EG</string>
+				<string>EH</string>
+				<string>ER</string>
+				<string>ES</string>
+				<string>ET</string>
+				<string>FI</string>
+				<string>FJ</string>
+				<string>FK</string>
+				<string>FM</string>
+				<string>FO</string>
+				<string>FR</string>
+				<string>GA</string>
+				<string>GB</string>
+				<string>GD</string>
+				<string>GE</string>
+				<string>GF</string>
+				<string>GG</string>
+				<string>GH</string>
+				<string>GI</string>
+				<string>GL</string>
+				<string>GM</string>
+				<string>GN</string>
+				<string>GP</string>
+				<string>GQ</string>
+				<string>GR</string>
+				<string>GS</string>
+				<string>GT</string>
+				<string>GU</string>
+				<string>GW</string>
+				<string>GY</string>
+				<string>HK</string>
+				<string>HM</string>
+				<string>HN</string>
+				<string>HR</string>
+				<string>HT</string>
+				<string>HU</string>
+				<string>ID</string>
+				<string>IE</string>
+				<string>IL</string>
+				<string>IM</string>
+				<string>IN</string>
+				<string>IO</string>
+				<string>IQ</string>
+				<string>IR</string>
+				<string>IS</string>
+				<string>IT</string>
+				<string>JE</string>
+				<string>JM</string>
+				<string>JO</string>
+				<string>JP</string>
+				<string>KE</string>
+				<string>KG</string>
+				<string>KH</string>
+				<string>KI</string>
+				<string>KM</string>
+				<string>KN</string>
+				<string>KP</string>
+				<string>KR</string>
+				<string>KW</string>
+				<string>KY</string>
+				<string>KZ</string>
+				<string>LA</string>
+				<string>LB</string>
+				<string>LC</string>
+				<string>LI</string>
+				<string>LK</string>
+				<string>LR</string>
+				<string>LS</string>
+				<string>LT</string>
+				<string>LU</string>
+				<string>LV</string>
+				<string>LY</string>
+				<string>MA</string>
+				<string>MC</string>
+				<string>MD</string>
+				<string>ME</string>
+				<string>MF</string>
+				<string>MG</string>
+				<string>MH</string>
+				<string>MK</string>
+				<string>ML</string>
+				<string>MM</string>
+				<string>MN</string>
+				<string>MO</string>
+				<string>MP</string>
+				<string>MQ</string>
+				<string>MR</string>
+				<string>MS</string>
+				<string>MT</string>
+				<string>MU</string>
+				<string>MV</string>
+				<string>MW</string>
+				<string>MX</string>
+				<string>MY</string>
+				<string>MZ</string>
+				<string>NA</string>
+				<string>NC</string>
+				<string>NE</string>
+				<string>NF</string>
+				<string>NG</string>
+				<string>NI</string>
+				<string>NL</string>
+				<string>NO</string>
+				<string>NP</string>
+				<string>NR</string>
+				<string>NU</string>
+				<string>NZ</string>
+				<string>OM</string>
+				<string>PA</string>
+				<string>PE</string>
+				<string>PF</string>
+				<string>PG</string>
+				<string>PH</string>
+				<string>PK</string>
+				<string>PL</string>
+				<string>PM</string>
+				<string>PN</string>
+				<string>PR</string>
+				<string>PS</string>
+				<string>PT</string>
+				<string>PW</string>
+				<string>PY</string>
+				<string>QA</string>
+				<string>RE</string>
+				<string>RO</string>
+				<string>RS</string>
+				<string>RU</string>
+				<string>RW</string>
+				<string>SA</string>
+				<string>SB</string>
+				<string>SC</string>
+				<string>SD</string>
+				<string>SE</string>
+				<string>SG</string>
+				<string>SH</string>
+				<string>SI</string>
+				<string>SJ</string>
+				<string>SK</string>
+				<string>SL</string>
+				<string>SM</string>
+				<string>SN</string>
+				<string>SO</string>
+				<string>SR</string>
+				<string>SS</string>
+				<string>ST</string>
+				<string>SV</string>
+				<string>SX</string>
+				<string>SY</string>
+				<string>SZ</string>
+				<string>TC</string>
+				<string>TD</string>
+				<string>TF</string>
+				<string>TG</string>
+				<string>TH</string>
+				<string>TJ</string>
+				<string>TK</string>
+				<string>TL</string>
+				<string>TM</string>
+				<string>TN</string>
+				<string>TO</string>
+				<string>TR</string>
+				<string>TT</string>
+				<string>TV</string>
+				<string>TW</string>
+				<string>TZ</string>
+				<string>UA</string>
+				<string>UG</string>
+				<string>UM</string>
+				<string>US</string>
+				<string>UY</string>
+				<string>UZ</string>
+				<string>VA</string>
+				<string>VC</string>
+				<string>VE</string>
+				<string>VG</string>
+				<string>VI</string>
+				<string>VN</string>
+				<string>VU</string>
+				<string>WF</string>
+				<string>WS</string>
+				<string>YE</string>
+				<string>YT</string>
+				<string>ZA</string>
+				<string>ZM</string>
+				<string>ZW</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Statistics</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>enable_statistics</string>
+			<key>Title</key>
+			<string>Help improve Sonarflow</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>Settings - Sonarflow</string>
+</dict>
+</plist>

@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64BA4ACC152C738D009B58B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA4ACB152C738D009B58B1 /* UIKit.framework */; };
+		64BA4ACE152C738D009B58B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA4ACD152C738D009B58B1 /* Foundation.framework */; };
+		64BA4AD0152C738D009B58B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA4ACF152C738D009B58B1 /* CoreGraphics.framework */; };
+		64BA4AD6152C738D009B58B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64BA4AD4152C738D009B58B1 /* InfoPlist.strings */; };
+		64BA4AD8152C738D009B58B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA4AD7152C738D009B58B1 /* main.m */; };
+		64BA4ADC152C738D009B58B1 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA4ADB152C738D009B58B1 /* SMAppDelegate.m */; };
+		64BA4ADF152C738D009B58B1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BA4ADD152C738D009B58B1 /* MainStoryboard_iPhone.storyboard */; };
+		64BA4AE2152C738D009B58B1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BA4AE0152C738D009B58B1 /* MainStoryboard_iPad.storyboard */; };
+		64BA4AE5152C738D009B58B1 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA4AE4152C738D009B58B1 /* SMViewController.m */; };
+		64BA4AED152C738D009B58B1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA4AEC152C738D009B58B1 /* SenTestingKit.framework */; };
+		64BA4AEE152C738D009B58B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA4ACB152C738D009B58B1 /* UIKit.framework */; };
+		64BA4AEF152C738D009B58B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA4ACD152C738D009B58B1 /* Foundation.framework */; };
+		64BA4AF7152C738D009B58B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64BA4AF5152C738D009B58B1 /* InfoPlist.strings */; };
+		64BA4AFA152C738D009B58B1 /* MediaPlayerDiagnosticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA4AF9152C738D009B58B1 /* MediaPlayerDiagnosticsTests.m */; };
+		64BA4B04152C73AF009B58B1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA4B03152C73AF009B58B1 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64BA4AF0152C738D009B58B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BA4ABE152C738C009B58B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BA4AC6152C738D009B58B1;
+			remoteInfo = MediaPlayerDiagnostics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64BA4AC7152C738D009B58B1 /* MediaPlayerDiagnostics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayerDiagnostics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA4ACB152C738D009B58B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64BA4ACD152C738D009B58B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64BA4ACF152C738D009B58B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64BA4AD3152C738D009B58B1 /* MediaPlayerDiagnostics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaPlayerDiagnostics-Info.plist"; sourceTree = "<group>"; };
+		64BA4AD5152C738D009B58B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64BA4AD7152C738D009B58B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64BA4AD9152C738D009B58B1 /* MediaPlayerDiagnostics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaPlayerDiagnostics-Prefix.pch"; sourceTree = "<group>"; };
+		64BA4ADA152C738D009B58B1 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		64BA4ADB152C738D009B58B1 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		64BA4ADE152C738D009B58B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		64BA4AE1152C738D009B58B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		64BA4AE3152C738D009B58B1 /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		64BA4AE4152C738D009B58B1 /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+		64BA4AEB152C738D009B58B1 /* MediaPlayerDiagnosticsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerDiagnosticsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA4AEC152C738D009B58B1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64BA4AF4152C738D009B58B1 /* MediaPlayerDiagnosticsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaPlayerDiagnosticsTests-Info.plist"; sourceTree = "<group>"; };
+		64BA4AF6152C738D009B58B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64BA4AF8152C738D009B58B1 /* MediaPlayerDiagnosticsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaPlayerDiagnosticsTests.h; sourceTree = "<group>"; };
+		64BA4AF9152C738D009B58B1 /* MediaPlayerDiagnosticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerDiagnosticsTests.m; sourceTree = "<group>"; };
+		64BA4B03152C73AF009B58B1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64BA4AC4152C738D009B58B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA4B04152C73AF009B58B1 /* MediaPlayer.framework in Frameworks */,
+				64BA4ACC152C738D009B58B1 /* UIKit.framework in Frameworks */,
+				64BA4ACE152C738D009B58B1 /* Foundation.framework in Frameworks */,
+				64BA4AD0152C738D009B58B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA4AE7152C738D009B58B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA4AED152C738D009B58B1 /* SenTestingKit.framework in Frameworks */,
+				64BA4AEE152C738D009B58B1 /* UIKit.framework in Frameworks */,
+				64BA4AEF152C738D009B58B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BA4ABC152C738C009B58B1 = {
+			isa = PBXGroup;
+			children = (
+				64BA4AD1152C738D009B58B1 /* MediaPlayerDiagnostics */,
+				64BA4AF2152C738D009B58B1 /* MediaPlayerDiagnosticsTests */,
+				64BA4ACA152C738D009B58B1 /* Frameworks */,
+				64BA4AC8152C738D009B58B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64BA4AC8152C738D009B58B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64BA4AC7152C738D009B58B1 /* MediaPlayerDiagnostics.app */,
+				64BA4AEB152C738D009B58B1 /* MediaPlayerDiagnosticsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64BA4ACA152C738D009B58B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64BA4B03152C73AF009B58B1 /* MediaPlayer.framework */,
+				64BA4ACB152C738D009B58B1 /* UIKit.framework */,
+				64BA4ACD152C738D009B58B1 /* Foundation.framework */,
+				64BA4ACF152C738D009B58B1 /* CoreGraphics.framework */,
+				64BA4AEC152C738D009B58B1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64BA4AD1152C738D009B58B1 /* MediaPlayerDiagnostics */ = {
+			isa = PBXGroup;
+			children = (
+				64BA4ADA152C738D009B58B1 /* SMAppDelegate.h */,
+				64BA4ADB152C738D009B58B1 /* SMAppDelegate.m */,
+				64BA4ADD152C738D009B58B1 /* MainStoryboard_iPhone.storyboard */,
+				64BA4AE0152C738D009B58B1 /* MainStoryboard_iPad.storyboard */,
+				64BA4AE3152C738D009B58B1 /* SMViewController.h */,
+				64BA4AE4152C738D009B58B1 /* SMViewController.m */,
+				64BA4AD2152C738D009B58B1 /* Supporting Files */,
+			);
+			path = MediaPlayerDiagnostics;
+			sourceTree = "<group>";
+		};
+		64BA4AD2152C738D009B58B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64BA4AD3152C738D009B58B1 /* MediaPlayerDiagnostics-Info.plist */,
+				64BA4AD4152C738D009B58B1 /* InfoPlist.strings */,
+				64BA4AD7152C738D009B58B1 /* main.m */,
+				64BA4AD9152C738D009B58B1 /* MediaPlayerDiagnostics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64BA4AF2152C738D009B58B1 /* MediaPlayerDiagnosticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				64BA4AF8152C738D009B58B1 /* MediaPlayerDiagnosticsTests.h */,
+				64BA4AF9152C738D009B58B1 /* MediaPlayerDiagnosticsTests.m */,
+				64BA4AF3152C738D009B58B1 /* Supporting Files */,
+			);
+			path = MediaPlayerDiagnosticsTests;
+			sourceTree = "<group>";
+		};
+		64BA4AF3152C738D009B58B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64BA4AF4152C738D009B58B1 /* MediaPlayerDiagnosticsTests-Info.plist */,
+				64BA4AF5152C738D009B58B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64BA4AC6152C738D009B58B1 /* MediaPlayerDiagnostics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BA4AFD152C738D009B58B1 /* Build configuration list for PBXNativeTarget "MediaPlayerDiagnostics" */;
+			buildPhases = (
+				64BA4AC3152C738D009B58B1 /* Sources */,
+				64BA4AC4152C738D009B58B1 /* Frameworks */,
+				64BA4AC5152C738D009B58B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaPlayerDiagnostics;
+			productName = MediaPlayerDiagnostics;
+			productReference = 64BA4AC7152C738D009B58B1 /* MediaPlayerDiagnostics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64BA4AEA152C738D009B58B1 /* MediaPlayerDiagnosticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BA4B00152C738D009B58B1 /* Build configuration list for PBXNativeTarget "MediaPlayerDiagnosticsTests" */;
+			buildPhases = (
+				64BA4AE6152C738D009B58B1 /* Sources */,
+				64BA4AE7152C738D009B58B1 /* Frameworks */,
+				64BA4AE8152C738D009B58B1 /* Resources */,
+				64BA4AE9152C738D009B58B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BA4AF1152C738D009B58B1 /* PBXTargetDependency */,
+			);
+			name = MediaPlayerDiagnosticsTests;
+			productName = MediaPlayerDiagnosticsTests;
+			productReference = 64BA4AEB152C738D009B58B1 /* MediaPlayerDiagnosticsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64BA4ABE152C738C009B58B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Charwot;
+			};
+			buildConfigurationList = 64BA4AC1152C738C009B58B1 /* Build configuration list for PBXProject "MediaPlayerDiagnostics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64BA4ABC152C738C009B58B1;
+			productRefGroup = 64BA4AC8152C738D009B58B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64BA4AC6152C738D009B58B1 /* MediaPlayerDiagnostics */,
+				64BA4AEA152C738D009B58B1 /* MediaPlayerDiagnosticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64BA4AC5152C738D009B58B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA4AD6152C738D009B58B1 /* InfoPlist.strings in Resources */,
+				64BA4ADF152C738D009B58B1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				64BA4AE2152C738D009B58B1 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA4AE8152C738D009B58B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA4AF7152C738D009B58B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64BA4AE9152C738D009B58B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BA4AC3152C738D009B58B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA4AD8152C738D009B58B1 /* main.m in Sources */,
+				64BA4ADC152C738D009B58B1 /* SMAppDelegate.m in Sources */,
+				64BA4AE5152C738D009B58B1 /* SMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA4AE6152C738D009B58B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA4AFA152C738D009B58B1 /* MediaPlayerDiagnosticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64BA4AF1152C738D009B58B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BA4AC6152C738D009B58B1 /* MediaPlayerDiagnostics */;
+			targetProxy = 64BA4AF0152C738D009B58B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64BA4AD4152C738D009B58B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BA4AD5152C738D009B58B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64BA4ADD152C738D009B58B1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BA4ADE152C738D009B58B1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		64BA4AE0152C738D009B58B1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BA4AE1152C738D009B58B1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		64BA4AF5152C738D009B58B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BA4AF6152C738D009B58B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64BA4AFB152C738D009B58B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64BA4AFC152C738D009B58B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64BA4AFE152C738D009B58B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayerDiagnostics/MediaPlayerDiagnostics-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayerDiagnostics/MediaPlayerDiagnostics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64BA4AFF152C738D009B58B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayerDiagnostics/MediaPlayerDiagnostics-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayerDiagnostics/MediaPlayerDiagnostics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64BA4B01152C738D009B58B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MediaPlayerDiagnostics.app/MediaPlayerDiagnostics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayerDiagnostics/MediaPlayerDiagnostics-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayerDiagnosticsTests/MediaPlayerDiagnosticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64BA4B02152C738D009B58B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MediaPlayerDiagnostics.app/MediaPlayerDiagnostics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayerDiagnostics/MediaPlayerDiagnostics-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayerDiagnosticsTests/MediaPlayerDiagnosticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64BA4AC1152C738C009B58B1 /* Build configuration list for PBXProject "MediaPlayerDiagnostics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA4AFB152C738D009B58B1 /* Debug */,
+				64BA4AFC152C738D009B58B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BA4AFD152C738D009B58B1 /* Build configuration list for PBXNativeTarget "MediaPlayerDiagnostics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA4AFE152C738D009B58B1 /* Debug */,
+				64BA4AFF152C738D009B58B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64BA4B00152C738D009B58B1 /* Build configuration list for PBXNativeTarget "MediaPlayerDiagnosticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA4B01152C738D009B58B1 /* Debug */,
+				64BA4B02152C738D009B58B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64BA4ABE152C738C009B58B1 /* Project object */;
+}

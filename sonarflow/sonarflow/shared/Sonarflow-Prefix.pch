@@ -1,0 +1,24 @@
+//
+// Prefix header for all source files of the 'Sonarflow' target in the 'Sonarflow' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_2
+#warning "This project uses features only available in iPhone SDK 3.2 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+	#ifdef DEBUG
+		#define NSDebug(format, ...) NSLog(format, ## __VA_ARGS__)
+	#else
+		#define NSDebug(format, ...)
+	#endif
+
+#endif
+
+#define mstr(x) #x 
+#define macrostr(x) mstr(x)

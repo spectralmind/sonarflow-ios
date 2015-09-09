@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6DC41215BEB01B008192C6 /* DiscoveryZoneMember+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6DC41115BEB01B008192C6 /* DiscoveryZoneMember+Private.h */; };
+		1F6DC41315BEB11B008192C6 /* BVResources.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 648820EB1511E61800127517 /* BVResources.h */; };
+		1F6DC41415BEB11B008192C6 /* DiscoveryZoneMember.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42CE57AA15495C1B002CCB26 /* DiscoveryZoneMember.h */; };
+		1F6DC41515BEB11B008192C6 /* DiscoveryZone.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42D47AE5154AD4FC00E4A362 /* DiscoveryZone.h */; };
+		1F90314C14AA328B004F7561 /* BubbleGlowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F90314A14AA328B004F7561 /* BubbleGlowView.h */; };
+		1F90314D14AA328B004F7561 /* BubbleGlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F90314B14AA328B004F7561 /* BubbleGlowView.m */; };
+		1FA762DD14EA79BE00C7AAF6 /* BVRimAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA762DB14EA79BC00C7AAF6 /* BVRimAnimationView.h */; };
+		1FA762DE14EA79BE00C7AAF6 /* BVRimAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA762DC14EA79BD00C7AAF6 /* BVRimAnimationView.m */; };
+		42CE57AC15495C1B002CCB26 /* DiscoveryZoneMember.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CE57AA15495C1B002CCB26 /* DiscoveryZoneMember.h */; };
+		42CE57AD15495C1B002CCB26 /* DiscoveryZoneMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CE57AB15495C1B002CCB26 /* DiscoveryZoneMember.m */; };
+		42D47AE7154AD4FC00E4A362 /* DiscoveryZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D47AE5154AD4FC00E4A362 /* DiscoveryZone.h */; };
+		42D47AE8154AD4FC00E4A362 /* DiscoveryZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D47AE6154AD4FC00E4A362 /* DiscoveryZone.m */; };
+		6428F23E149A2B6A00CC3371 /* NSString+CGLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428F23C149A2B6A00CC3371 /* NSString+CGLogging.h */; settings = {ATTRIBUTES = (); }; };
+		6428F23F149A2B6A00CC3371 /* NSString+CGLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428F23D149A2B6A00CC3371 /* NSString+CGLogging.m */; };
+		6453271714A336560066D0A9 /* Bubble.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C47BCF148D49F0005A541C /* Bubble.h */; };
+		6453271814A3365E0066D0A9 /* BubbleHierarchyView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C47BD4148D49F0005A541C /* BubbleHierarchyView.h */; };
+		6453271C14A336830066D0A9 /* BubbleDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C47BD3148D49F0005A541C /* BubbleDataSource.h */; };
+		6453271E14A336BA0066D0A9 /* NSString+CGLogging.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6428F23C149A2B6A00CC3371 /* NSString+CGLogging.h */; };
+		6453271F14A336BB0066D0A9 /* UIImage+Stretchable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C47BE1148D49F0005A541C /* UIImage+Stretchable.h */; };
+		6453272014A336BC0066D0A9 /* UIColor+Random.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64755C7D14A1BFDC00C6D4E7 /* UIColor+Random.h */; };
+		645A98B915E3E588008134CA /* NSArray+KeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 645A98B715E3E588008134CA /* NSArray+KeyPath.h */; };
+		645A98BA15E3E588008134CA /* NSArray+KeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 645A98B815E3E588008134CA /* NSArray+KeyPath.m */; };
+		64755C7F14A1BFDD00C6D4E7 /* UIColor+Random.h in Headers */ = {isa = PBXBuildFile; fileRef = 64755C7D14A1BFDC00C6D4E7 /* UIColor+Random.h */; };
+		64755C8014A1BFDD00C6D4E7 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 64755C7E14A1BFDD00C6D4E7 /* UIColor+Random.m */; };
+		6479EB68150CD84D00AE9E39 /* BVRimAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6479EB66150CD84D00AE9E39 /* BVRimAnimationController.h */; };
+		6479EB69150CD84D00AE9E39 /* BVRimAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6479EB67150CD84D00AE9E39 /* BVRimAnimationController.m */; };
+		6479EB6E150CDAEA00AE9E39 /* BVRimAnimationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6479EB6D150CDAEA00AE9E39 /* BVRimAnimationControllerTests.m */; };
+		6479EB72150CE02700AE9E39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F311A7414ED5C21004CA14E /* QuartzCore.framework */; };
+		648820ED1511E61800127517 /* BVResources.h in Headers */ = {isa = PBXBuildFile; fileRef = 648820EB1511E61800127517 /* BVResources.h */; };
+		648820EE1511E61800127517 /* BVResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 648820EC1511E61800127517 /* BVResources.m */; };
+		64A5944E1521B932001073FD /* SFTimeTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A5944C1521B932001073FD /* SFTimeTracker.h */; };
+		64A5944F1521B932001073FD /* SFTimeTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A5944D1521B932001073FD /* SFTimeTracker.m */; };
+		64C47BA3148D49BA005A541C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47BA2148D49BA005A541C /* Foundation.framework */; };
+		64C47BB1148D49BB005A541C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47BB0148D49BB005A541C /* SenTestingKit.framework */; };
+		64C47BB4148D49BB005A541C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47BA2148D49BA005A541C /* Foundation.framework */; };
+		64C47BB7148D49BB005A541C /* libbubbleview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47B9F148D49BA005A541C /* libbubbleview.a */; };
+		64C47BBD148D49BB005A541C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C47BBB148D49BB005A541C /* InfoPlist.strings */; };
+		64C47BE8148D49F0005A541C /* AbstractBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BCD148D49F0005A541C /* AbstractBubbleView.h */; };
+		64C47BE9148D49F0005A541C /* AbstractBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BCE148D49F0005A541C /* AbstractBubbleView.m */; };
+		64C47BEA148D49F0005A541C /* Bubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BCF148D49F0005A541C /* Bubble.h */; settings = {ATTRIBUTES = (); }; };
+		64C47BEB148D49F0005A541C /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BD0148D49F0005A541C /* Bubble.m */; };
+		64C47BEC148D49F0005A541C /* BubbleBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BD1148D49F0005A541C /* BubbleBackgroundView.h */; };
+		64C47BED148D49F0005A541C /* BubbleBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BD2148D49F0005A541C /* BubbleBackgroundView.m */; };
+		64C47BEE148D49F0005A541C /* BubbleDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BD3148D49F0005A541C /* BubbleDataSource.h */; settings = {ATTRIBUTES = (); }; };
+		64C47BEF148D49F0005A541C /* BubbleHierarchyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BD4148D49F0005A541C /* BubbleHierarchyView.h */; settings = {ATTRIBUTES = (); }; };
+		64C47BF0148D49F0005A541C /* BubbleHierarchyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BD5148D49F0005A541C /* BubbleHierarchyView.m */; };
+		64C47BF1148D49F0005A541C /* BubbleLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BD6148D49F0005A541C /* BubbleLabelView.h */; };
+		64C47BF2148D49F0005A541C /* BubbleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BD7148D49F0005A541C /* BubbleLabelView.m */; };
+		64C47BF3148D49F0005A541C /* BubbleMainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BD8148D49F0005A541C /* BubbleMainView.h */; settings = {ATTRIBUTES = (); }; };
+		64C47BF4148D49F0005A541C /* BubbleMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BD9148D49F0005A541C /* BubbleMainView.m */; };
+		64C47BF5148D49F0005A541C /* bubbleview-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BDA148D49F0005A541C /* bubbleview-Prefix.pch */; };
+		64C47BF6148D49F0005A541C /* BubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BDB148D49F0005A541C /* BubbleView.h */; settings = {ATTRIBUTES = (); }; };
+		64C47BF7148D49F0005A541C /* BubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BDC148D49F0005A541C /* BubbleView.m */; };
+		64C47BF8148D49F0005A541C /* BubbleViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BDD148D49F0005A541C /* BubbleViewFactory.h */; };
+		64C47BF9148D49F0005A541C /* BubbleViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BDE148D49F0005A541C /* BubbleViewFactory.m */; };
+		64C47BFA148D49F0005A541C /* CacheableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BDF148D49F0005A541C /* CacheableView.h */; };
+		64C47BFB148D49F0005A541C /* UIImage+Stretchable.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BE1148D49F0005A541C /* UIImage+Stretchable.h */; settings = {ATTRIBUTES = (); }; };
+		64C47BFC148D49F0005A541C /* UIImage+Stretchable.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BE2148D49F0005A541C /* UIImage+Stretchable.m */; };
+		64C47BFD148D49F0005A541C /* Faulter.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BE3148D49F0005A541C /* Faulter.h */; };
+		64C47BFE148D49F0005A541C /* Faulter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BE4148D49F0005A541C /* Faulter.m */; };
+		64C47BFF148D49F0005A541C /* LabelContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BE5148D49F0005A541C /* LabelContainer.h */; };
+		64C47C00148D49F0005A541C /* UIImage+ColorMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C47BE6148D49F0005A541C /* UIImage+ColorMask.h */; };
+		64C47C01148D49F0005A541C /* UIImage+ColorMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47BE7148D49F0005A541C /* UIImage+ColorMask.m */; };
+		64C47C08148D4A13005A541C /* AbstractBubbleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47C03148D4A13005A541C /* AbstractBubbleViewTests.m */; };
+		64C47C09148D4A13005A541C /* BubbleViewTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47C05148D4A13005A541C /* BubbleViewTestHelper.m */; };
+		64C47C0A148D4A13005A541C /* BubbleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C47C07148D4A13005A541C /* BubbleViewTests.m */; };
+		64C47C1A148D5130005A541C /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47C19148D5130005A541C /* libOCMock.a */; };
+		64C47C1D148D5152005A541C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47C1C148D5152005A541C /* UIKit.framework */; };
+		64C47C1E148D515E005A541C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47C1C148D5152005A541C /* UIKit.framework */; };
+		64C47C20148D5177005A541C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47C1F148D5177005A541C /* CoreGraphics.framework */; };
+		64C47C21148D5181005A541C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C47C1F148D5177005A541C /* CoreGraphics.framework */; };
+		64E33B1B14A080AB00C17BE9 /* MainViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E33B1914A080AB00C17BE9 /* MainViewDelegate.h */; };
+		64E33B1C14A080AB00C17BE9 /* MainViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E33B1A14A080AB00C17BE9 /* MainViewDelegate.m */; };
+		64E33B1F14A080FF00C17BE9 /* BubbleHierarchyView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E33B1D14A080FF00C17BE9 /* BubbleHierarchyView+Private.h */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C47BB5148D49BB005A541C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C47B96148D49BA005A541C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C47B9E148D49BA005A541C;
+			remoteInfo = bubbleview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6453271614A336420066D0A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include;
+			dstSubfolderSpec = 16;
+			files = (
+				1F6DC41315BEB11B008192C6 /* BVResources.h in CopyFiles */,
+				1F6DC41415BEB11B008192C6 /* DiscoveryZoneMember.h in CopyFiles */,
+				1F6DC41515BEB11B008192C6 /* DiscoveryZone.h in CopyFiles */,
+				6453271714A336560066D0A9 /* Bubble.h in CopyFiles */,
+				6453271814A3365E0066D0A9 /* BubbleHierarchyView.h in CopyFiles */,
+				6453271C14A336830066D0A9 /* BubbleDataSource.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6453271D14A336A40066D0A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/common;
+			dstSubfolderSpec = 16;
+			files = (
+				6453271E14A336BA0066D0A9 /* NSString+CGLogging.h in CopyFiles */,
+				6453272014A336BC0066D0A9 /* UIColor+Random.h in CopyFiles */,
+				6453271F14A336BB0066D0A9 /* UIImage+Stretchable.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F311A7414ED5C21004CA14E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F6DC41115BEB01B008192C6 /* DiscoveryZoneMember+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiscoveryZoneMember+Private.h"; sourceTree = "<group>"; };
+		1F6DC42615BEB1CB008192C6 /* BVResources+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BVResources+Private.h"; sourceTree = "<group>"; };
+		1F90314A14AA328B004F7561 /* BubbleGlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleGlowView.h; sourceTree = "<group>"; };
+		1F90314B14AA328B004F7561 /* BubbleGlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleGlowView.m; sourceTree = "<group>"; };
+		1FA762DB14EA79BC00C7AAF6 /* BVRimAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVRimAnimationView.h; sourceTree = "<group>"; };
+		1FA762DC14EA79BD00C7AAF6 /* BVRimAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVRimAnimationView.m; sourceTree = "<group>"; };
+		42CE57AA15495C1B002CCB26 /* DiscoveryZoneMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoveryZoneMember.h; path = include/DiscoveryZoneMember.h; sourceTree = "<group>"; };
+		42CE57AB15495C1B002CCB26 /* DiscoveryZoneMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryZoneMember.m; sourceTree = "<group>"; };
+		42D47AE5154AD4FC00E4A362 /* DiscoveryZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoveryZone.h; path = include/DiscoveryZone.h; sourceTree = "<group>"; };
+		42D47AE6154AD4FC00E4A362 /* DiscoveryZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryZone.m; sourceTree = "<group>"; };
+		6428F23C149A2B6A00CC3371 /* NSString+CGLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CGLogging.h"; path = "../include/common/NSString+CGLogging.h"; sourceTree = "<group>"; };
+		6428F23D149A2B6A00CC3371 /* NSString+CGLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CGLogging.m"; sourceTree = "<group>"; };
+		645A98B715E3E588008134CA /* NSArray+KeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KeyPath.h"; sourceTree = "<group>"; };
+		645A98B815E3E588008134CA /* NSArray+KeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KeyPath.m"; sourceTree = "<group>"; };
+		6472CAF0150D223F00C68517 /* BVRimAnimationControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVRimAnimationControllerDelegate.h; sourceTree = "<group>"; };
+		64755C7D14A1BFDC00C6D4E7 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Random.h"; path = "../include/common/UIColor+Random.h"; sourceTree = "<group>"; };
+		64755C7E14A1BFDD00C6D4E7 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		6479EB65150CD80700AE9E39 /* BVRimAnimationState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVRimAnimationState.h; sourceTree = "<group>"; };
+		6479EB66150CD84D00AE9E39 /* BVRimAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVRimAnimationController.h; sourceTree = "<group>"; };
+		6479EB67150CD84D00AE9E39 /* BVRimAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVRimAnimationController.m; sourceTree = "<group>"; };
+		6479EB6C150CDAEA00AE9E39 /* BVRimAnimationControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVRimAnimationControllerTests.h; sourceTree = "<group>"; };
+		6479EB6D150CDAEA00AE9E39 /* BVRimAnimationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVRimAnimationControllerTests.m; sourceTree = "<group>"; };
+		648820EB1511E61800127517 /* BVResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BVResources.h; path = include/BVResources.h; sourceTree = "<group>"; };
+		648820EC1511E61800127517 /* BVResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVResources.m; sourceTree = "<group>"; };
+		64A5944C1521B932001073FD /* SFTimeTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTimeTracker.h; sourceTree = "<group>"; };
+		64A5944D1521B932001073FD /* SFTimeTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTimeTracker.m; sourceTree = "<group>"; };
+		64C47B9F148D49BA005A541C /* libbubbleview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbubbleview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C47BA2148D49BA005A541C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64C47BAF148D49BB005A541C /* bubbleviewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bubbleviewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C47BB0148D49BB005A541C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64C47BB2148D49BB005A541C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		64C47BBA148D49BB005A541C /* bubbleviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bubbleviewTests-Info.plist"; sourceTree = "<group>"; };
+		64C47BBC148D49BB005A541C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64C47BCD148D49F0005A541C /* AbstractBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBubbleView.h; sourceTree = "<group>"; };
+		64C47BCE148D49F0005A541C /* AbstractBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractBubbleView.m; sourceTree = "<group>"; };
+		64C47BCF148D49F0005A541C /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bubble.h; path = include/Bubble.h; sourceTree = "<group>"; };
+		64C47BD0148D49F0005A541C /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubble.m; sourceTree = "<group>"; };
+		64C47BD1148D49F0005A541C /* BubbleBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleBackgroundView.h; sourceTree = "<group>"; };
+		64C47BD2148D49F0005A541C /* BubbleBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleBackgroundView.m; sourceTree = "<group>"; };
+		64C47BD3148D49F0005A541C /* BubbleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BubbleDataSource.h; path = include/BubbleDataSource.h; sourceTree = "<group>"; };
+		64C47BD4148D49F0005A541C /* BubbleHierarchyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BubbleHierarchyView.h; path = include/BubbleHierarchyView.h; sourceTree = "<group>"; };
+		64C47BD5148D49F0005A541C /* BubbleHierarchyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleHierarchyView.m; sourceTree = "<group>"; };
+		64C47BD6148D49F0005A541C /* BubbleLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleLabelView.h; sourceTree = "<group>"; };
+		64C47BD7148D49F0005A541C /* BubbleLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleLabelView.m; sourceTree = "<group>"; };
+		64C47BD8148D49F0005A541C /* BubbleMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleMainView.h; sourceTree = "<group>"; };
+		64C47BD9148D49F0005A541C /* BubbleMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleMainView.m; sourceTree = "<group>"; };
+		64C47BDA148D49F0005A541C /* bubbleview-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bubbleview-Prefix.pch"; sourceTree = "<group>"; };
+		64C47BDB148D49F0005A541C /* BubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleView.h; sourceTree = "<group>"; };
+		64C47BDC148D49F0005A541C /* BubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleView.m; sourceTree = "<group>"; };
+		64C47BDD148D49F0005A541C /* BubbleViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleViewFactory.h; sourceTree = "<group>"; };
+		64C47BDE148D49F0005A541C /* BubbleViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleViewFactory.m; sourceTree = "<group>"; };
+		64C47BDF148D49F0005A541C /* CacheableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheableView.h; sourceTree = "<group>"; };
+		64C47BE1148D49F0005A541C /* UIImage+Stretchable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Stretchable.h"; path = "../include/common/UIImage+Stretchable.h"; sourceTree = "<group>"; };
+		64C47BE2148D49F0005A541C /* UIImage+Stretchable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Stretchable.m"; sourceTree = "<group>"; };
+		64C47BE3148D49F0005A541C /* Faulter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Faulter.h; sourceTree = "<group>"; };
+		64C47BE4148D49F0005A541C /* Faulter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Faulter.m; sourceTree = "<group>"; };
+		64C47BE5148D49F0005A541C /* LabelContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelContainer.h; sourceTree = "<group>"; };
+		64C47BE6148D49F0005A541C /* UIImage+ColorMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorMask.h"; sourceTree = "<group>"; };
+		64C47BE7148D49F0005A541C /* UIImage+ColorMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorMask.m"; sourceTree = "<group>"; };
+		64C47C02148D4A13005A541C /* AbstractBubbleViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBubbleViewTests.h; sourceTree = "<group>"; };
+		64C47C03148D4A13005A541C /* AbstractBubbleViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractBubbleViewTests.m; sourceTree = "<group>"; };
+		64C47C04148D4A13005A541C /* BubbleViewTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleViewTestHelper.h; sourceTree = "<group>"; };
+		64C47C05148D4A13005A541C /* BubbleViewTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleViewTestHelper.m; sourceTree = "<group>"; };
+		64C47C06148D4A13005A541C /* BubbleViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleViewTests.h; sourceTree = "<group>"; };
+		64C47C07148D4A13005A541C /* BubbleViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleViewTests.m; sourceTree = "<group>"; };
+		64C47C19148D5130005A541C /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = ../OCMock/libOCMock.a; sourceTree = "<group>"; };
+		64C47C1C148D5152005A541C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64C47C1F148D5177005A541C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64E33B1914A080AB00C17BE9 /* MainViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewDelegate.h; sourceTree = "<group>"; };
+		64E33B1A14A080AB00C17BE9 /* MainViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewDelegate.m; sourceTree = "<group>"; };
+		64E33B1D14A080FF00C17BE9 /* BubbleHierarchyView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BubbleHierarchyView+Private.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C47B9C148D49BA005A541C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C47C20148D5177005A541C /* CoreGraphics.framework in Frameworks */,
+				64C47C1E148D515E005A541C /* UIKit.framework in Frameworks */,
+				64C47BA3148D49BA005A541C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C47BAB148D49BB005A541C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6479EB72150CE02700AE9E39 /* QuartzCore.framework in Frameworks */,
+				64C47C21148D5181005A541C /* CoreGraphics.framework in Frameworks */,
+				64C47C1D148D5152005A541C /* UIKit.framework in Frameworks */,
+				64C47C1A148D5130005A541C /* libOCMock.a in Frameworks */,
+				64C47BB1148D49BB005A541C /* SenTestingKit.framework in Frameworks */,
+				64C47BB4148D49BB005A541C /* Foundation.framework in Frameworks */,
+				64C47BB7148D49BB005A541C /* libbubbleview.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6DC40E15BEADAC008192C6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DC41015BEADC4008192C6 /* common */,
+				64C47BCF148D49F0005A541C /* Bubble.h */,
+				64C47BD3148D49F0005A541C /* BubbleDataSource.h */,
+				64C47BD4148D49F0005A541C /* BubbleHierarchyView.h */,
+				648820EB1511E61800127517 /* BVResources.h */,
+				42CE57AA15495C1B002CCB26 /* DiscoveryZoneMember.h */,
+				42D47AE5154AD4FC00E4A362 /* DiscoveryZone.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		1F6DC41015BEADC4008192C6 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6428F23C149A2B6A00CC3371 /* NSString+CGLogging.h */,
+				64C47BE1148D49F0005A541C /* UIImage+Stretchable.h */,
+				64755C7D14A1BFDC00C6D4E7 /* UIColor+Random.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		6479EB6A150CD8CE00AE9E39 /* RimAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6479EB65150CD80700AE9E39 /* BVRimAnimationState.h */,
+				6479EB66150CD84D00AE9E39 /* BVRimAnimationController.h */,
+				6479EB67150CD84D00AE9E39 /* BVRimAnimationController.m */,
+				6472CAF0150D223F00C68517 /* BVRimAnimationControllerDelegate.h */,
+				1FA762DB14EA79BC00C7AAF6 /* BVRimAnimationView.h */,
+				1FA762DC14EA79BD00C7AAF6 /* BVRimAnimationView.m */,
+			);
+			name = RimAnimation;
+			sourceTree = "<group>";
+		};
+		6479EB6B150CDAD500AE9E39 /* RimAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6479EB6C150CDAEA00AE9E39 /* BVRimAnimationControllerTests.h */,
+				6479EB6D150CDAEA00AE9E39 /* BVRimAnimationControllerTests.m */,
+			);
+			name = RimAnimation;
+			sourceTree = "<group>";
+		};
+		64C47B94148D49BA005A541C = {
+			isa = PBXGroup;
+			children = (
+				64C47BA4148D49BA005A541C /* bubbleview */,
+				64C47BB8148D49BB005A541C /* bubbleviewTests */,
+				64C47BA1148D49BA005A541C /* Frameworks */,
+				64C47BA0148D49BA005A541C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C47BA0148D49BA005A541C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C47B9F148D49BA005A541C /* libbubbleview.a */,
+				64C47BAF148D49BB005A541C /* bubbleviewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C47BA1148D49BA005A541C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C47C19148D5130005A541C /* libOCMock.a */,
+				1F311A7414ED5C21004CA14E /* QuartzCore.framework */,
+				64C47C1F148D5177005A541C /* CoreGraphics.framework */,
+				64C47C1C148D5152005A541C /* UIKit.framework */,
+				64C47BA2148D49BA005A541C /* Foundation.framework */,
+				64C47BB0148D49BB005A541C /* SenTestingKit.framework */,
+				64C47BB2148D49BB005A541C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64C47BA4148D49BA005A541C /* bubbleview */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DC40E15BEADAC008192C6 /* include */,
+				64C47BE0148D49F0005A541C /* common */,
+				6479EB6A150CD8CE00AE9E39 /* RimAnimation */,
+				64C47BCD148D49F0005A541C /* AbstractBubbleView.h */,
+				64C47BCE148D49F0005A541C /* AbstractBubbleView.m */,
+				64C47BD0148D49F0005A541C /* Bubble.m */,
+				64C47BD1148D49F0005A541C /* BubbleBackgroundView.h */,
+				64C47BD2148D49F0005A541C /* BubbleBackgroundView.m */,
+				1F90314A14AA328B004F7561 /* BubbleGlowView.h */,
+				1F90314B14AA328B004F7561 /* BubbleGlowView.m */,
+				64C47BD5148D49F0005A541C /* BubbleHierarchyView.m */,
+				64E33B1D14A080FF00C17BE9 /* BubbleHierarchyView+Private.h */,
+				64C47BD6148D49F0005A541C /* BubbleLabelView.h */,
+				64C47BD7148D49F0005A541C /* BubbleLabelView.m */,
+				64C47BD8148D49F0005A541C /* BubbleMainView.h */,
+				64C47BD9148D49F0005A541C /* BubbleMainView.m */,
+				64C47BDB148D49F0005A541C /* BubbleView.h */,
+				64C47BDC148D49F0005A541C /* BubbleView.m */,
+				64C47BDD148D49F0005A541C /* BubbleViewFactory.h */,
+				64C47BDE148D49F0005A541C /* BubbleViewFactory.m */,
+				648820EC1511E61800127517 /* BVResources.m */,
+				1F6DC42615BEB1CB008192C6 /* BVResources+Private.h */,
+				64C47BDF148D49F0005A541C /* CacheableView.h */,
+				64C47BE3148D49F0005A541C /* Faulter.h */,
+				64C47BE4148D49F0005A541C /* Faulter.m */,
+				64C47BE5148D49F0005A541C /* LabelContainer.h */,
+				64E33B1914A080AB00C17BE9 /* MainViewDelegate.h */,
+				64E33B1A14A080AB00C17BE9 /* MainViewDelegate.m */,
+				64C47BA5148D49BA005A541C /* Supporting Files */,
+				42CE57AB15495C1B002CCB26 /* DiscoveryZoneMember.m */,
+				1F6DC41115BEB01B008192C6 /* DiscoveryZoneMember+Private.h */,
+				42D47AE6154AD4FC00E4A362 /* DiscoveryZone.m */,
+			);
+			path = bubbleview;
+			sourceTree = "<group>";
+		};
+		64C47BA5148D49BA005A541C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C47BDA148D49F0005A541C /* bubbleview-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64C47BB8148D49BB005A541C /* bubbleviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6479EB6B150CDAD500AE9E39 /* RimAnimation */,
+				64C47C02148D4A13005A541C /* AbstractBubbleViewTests.h */,
+				64C47C03148D4A13005A541C /* AbstractBubbleViewTests.m */,
+				64C47C04148D4A13005A541C /* BubbleViewTestHelper.h */,
+				64C47C05148D4A13005A541C /* BubbleViewTestHelper.m */,
+				64C47C06148D4A13005A541C /* BubbleViewTests.h */,
+				64C47C07148D4A13005A541C /* BubbleViewTests.m */,
+				64C47BB9148D49BB005A541C /* Supporting Files */,
+			);
+			path = bubbleviewTests;
+			sourceTree = "<group>";
+		};
+		64C47BB9148D49BB005A541C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C47BBA148D49BB005A541C /* bubbleviewTests-Info.plist */,
+				64C47BBB148D49BB005A541C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64C47BE0148D49F0005A541C /* common */ = {
+			isa = PBXGroup;
+			children = (
+				64C47BE6148D49F0005A541C /* UIImage+ColorMask.h */,
+				64C47BE7148D49F0005A541C /* UIImage+ColorMask.m */,
+				6428F23D149A2B6A00CC3371 /* NSString+CGLogging.m */,
+				64C47BE2148D49F0005A541C /* UIImage+Stretchable.m */,
+				64755C7E14A1BFDD00C6D4E7 /* UIColor+Random.m */,
+				64A5944C1521B932001073FD /* SFTimeTracker.h */,
+				64A5944D1521B932001073FD /* SFTimeTracker.m */,
+				645A98B715E3E588008134CA /* NSArray+KeyPath.h */,
+				645A98B815E3E588008134CA /* NSArray+KeyPath.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64C47B9D148D49BA005A541C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C47BEF148D49F0005A541C /* BubbleHierarchyView.h in Headers */,
+				64C47BEE148D49F0005A541C /* BubbleDataSource.h in Headers */,
+				6428F23E149A2B6A00CC3371 /* NSString+CGLogging.h in Headers */,
+				64C47BF3148D49F0005A541C /* BubbleMainView.h in Headers */,
+				64C47BF6148D49F0005A541C /* BubbleView.h in Headers */,
+				64C47BE8148D49F0005A541C /* AbstractBubbleView.h in Headers */,
+				64C47BEC148D49F0005A541C /* BubbleBackgroundView.h in Headers */,
+				64C47BEA148D49F0005A541C /* Bubble.h in Headers */,
+				64E33B1F14A080FF00C17BE9 /* BubbleHierarchyView+Private.h in Headers */,
+				64C47BFB148D49F0005A541C /* UIImage+Stretchable.h in Headers */,
+				64C47BF1148D49F0005A541C /* BubbleLabelView.h in Headers */,
+				64C47BF5148D49F0005A541C /* bubbleview-Prefix.pch in Headers */,
+				64C47BF8148D49F0005A541C /* BubbleViewFactory.h in Headers */,
+				64C47BFA148D49F0005A541C /* CacheableView.h in Headers */,
+				64C47BFD148D49F0005A541C /* Faulter.h in Headers */,
+				64C47BFF148D49F0005A541C /* LabelContainer.h in Headers */,
+				64C47C00148D49F0005A541C /* UIImage+ColorMask.h in Headers */,
+				64E33B1B14A080AB00C17BE9 /* MainViewDelegate.h in Headers */,
+				64755C7F14A1BFDD00C6D4E7 /* UIColor+Random.h in Headers */,
+				1F90314C14AA328B004F7561 /* BubbleGlowView.h in Headers */,
+				1FA762DD14EA79BE00C7AAF6 /* BVRimAnimationView.h in Headers */,
+				6479EB68150CD84D00AE9E39 /* BVRimAnimationController.h in Headers */,
+				648820ED1511E61800127517 /* BVResources.h in Headers */,
+				64A5944E1521B932001073FD /* SFTimeTracker.h in Headers */,
+				42CE57AC15495C1B002CCB26 /* DiscoveryZoneMember.h in Headers */,
+				42D47AE7154AD4FC00E4A362 /* DiscoveryZone.h in Headers */,
+				1F6DC41215BEB01B008192C6 /* DiscoveryZoneMember+Private.h in Headers */,
+				645A98B915E3E588008134CA /* NSArray+KeyPath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64C47B9E148D49BA005A541C /* bubbleview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C47BC3148D49BB005A541C /* Build configuration list for PBXNativeTarget "bubbleview" */;
+			buildPhases = (
+				64C47B9B148D49BA005A541C /* Sources */,
+				64C47B9C148D49BA005A541C /* Frameworks */,
+				64C47B9D148D49BA005A541C /* Headers */,
+				6453271614A336420066D0A9 /* CopyFiles */,
+				6453271D14A336A40066D0A9 /* CopyFiles */,
+				6A2E83F514C5A62C007CC7FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bubbleview;
+			productName = bubbleview;
+			productReference = 64C47B9F148D49BA005A541C /* libbubbleview.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		64C47BAE148D49BB005A541C /* bubbleviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C47BC6148D49BB005A541C /* Build configuration list for PBXNativeTarget "bubbleviewTests" */;
+			buildPhases = (
+				64C47BAA148D49BB005A541C /* Sources */,
+				64C47BAB148D49BB005A541C /* Frameworks */,
+				64C47BAC148D49BB005A541C /* Resources */,
+				64C47BAD148D49BB005A541C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C47BB6148D49BB005A541C /* PBXTargetDependency */,
+			);
+			name = bubbleviewTests;
+			productName = bubbleviewTests;
+			productReference = 64C47BAF148D49BB005A541C /* bubbleviewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C47B96148D49BA005A541C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 64C47B99148D49BA005A541C /* Build configuration list for PBXProject "bubbleview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64C47B94148D49BA005A541C;
+			productRefGroup = 64C47BA0148D49BA005A541C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C47B9E148D49BA005A541C /* bubbleview */,
+				64C47BAE148D49BB005A541C /* bubbleviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C47BAC148D49BB005A541C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C47BBD148D49BB005A541C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64C47BAD148D49BB005A541C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		6A2E83F514C5A62C007CC7FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Version 2.0 (updated for Xcode 4, with some fixes)\n# Changes:\n#    - Works with xcode 4, even when running xcode 3 projects (Workarounds for apple bugs)\n#    - Faster / better: only runs lipo once, instead of once per recursion\n#    - Added some debugging statemetns that can be switched on/off by changing the DEBUG_THIS_SCRIPT variable to \"true\"\n#    - Fixed some typos\n# \n# Purpose:\n#   Create a static library for iPhone from within XCode\n#   Because Apple staff DELIBERATELY broke Xcode to make this impossible from the GUI (Xcode 3.2.3 specifically states this in the Release notes!)\n#   ...no, I don't understand why they did this!\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n# More info: see this Stack Overflow question: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n# Next, work out if we're in SIM or DEVICE\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\"\nxcodebuild -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nACTION=\"build\"\n#Merge all platform binaries as a fat binary for each configurations.\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n#rm -rf \"${CREATING_UNIVERSAL_DIR}\"\n#mkdir \"${CREATING_UNIVERSAL_DIR}\"\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nlipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}/usr/local/include\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}/usr/local/include\"\n# * needs to be outside the double quotes?\ncp \"${CURRENTCONFIG_DEVICE_DIR}/usr/local/include/\"* \"${CREATING_UNIVERSAL_DIR}/usr/local/include\"\nfi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C47B9B148D49BA005A541C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C47BE9148D49F0005A541C /* AbstractBubbleView.m in Sources */,
+				64C47BEB148D49F0005A541C /* Bubble.m in Sources */,
+				64C47BED148D49F0005A541C /* BubbleBackgroundView.m in Sources */,
+				64C47BF0148D49F0005A541C /* BubbleHierarchyView.m in Sources */,
+				64C47BF2148D49F0005A541C /* BubbleLabelView.m in Sources */,
+				64C47BF4148D49F0005A541C /* BubbleMainView.m in Sources */,
+				64C47BF7148D49F0005A541C /* BubbleView.m in Sources */,
+				64C47BF9148D49F0005A541C /* BubbleViewFactory.m in Sources */,
+				64C47BFC148D49F0005A541C /* UIImage+Stretchable.m in Sources */,
+				64C47BFE148D49F0005A541C /* Faulter.m in Sources */,
+				64C47C01148D49F0005A541C /* UIImage+ColorMask.m in Sources */,
+				6428F23F149A2B6A00CC3371 /* NSString+CGLogging.m in Sources */,
+				64E33B1C14A080AB00C17BE9 /* MainViewDelegate.m in Sources */,
+				64755C8014A1BFDD00C6D4E7 /* UIColor+Random.m in Sources */,
+				1F90314D14AA328B004F7561 /* BubbleGlowView.m in Sources */,
+				1FA762DE14EA79BE00C7AAF6 /* BVRimAnimationView.m in Sources */,
+				6479EB69150CD84D00AE9E39 /* BVRimAnimationController.m in Sources */,
+				648820EE1511E61800127517 /* BVResources.m in Sources */,
+				64A5944F1521B932001073FD /* SFTimeTracker.m in Sources */,
+				42CE57AD15495C1B002CCB26 /* DiscoveryZoneMember.m in Sources */,
+				42D47AE8154AD4FC00E4A362 /* DiscoveryZone.m in Sources */,
+				645A98BA15E3E588008134CA /* NSArray+KeyPath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C47BAA148D49BB005A541C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C47C08148D4A13005A541C /* AbstractBubbleViewTests.m in Sources */,
+				64C47C09148D4A13005A541C /* BubbleViewTestHelper.m in Sources */,
+				64C47C0A148D4A13005A541C /* BubbleViewTests.m in Sources */,
+				6479EB6E150CDAEA00AE9E39 /* BVRimAnimationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C47BB6148D49BB005A541C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C47B9E148D49BA005A541C /* bubbleview */;
+			targetProxy = 64C47BB5148D49BB005A541C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64C47BBB148D49BB005A541C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C47BBC148D49BB005A541C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F68C8A15C2CFFC002FD7D5 /* Testflight Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					i386,
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
+				PRIVATE_HEADERS_FOLDER_PATH = include/private;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Testflight Release";
+		};
+		42F68C8B15C2CFFC002FD7D5 /* Testflight Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/bubbleview.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bubbleview/bubbleview-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				OTHER_LDFLAGS = (
+					"${inherited}",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = "Testflight Release";
+		};
+		42F68C8C15C2CFFC002FD7D5 /* Testflight Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bubbleview/bubbleview-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"${inherited}",
+					"${PROJECT_DIR}/../OCMock",
+				);
+				INFOPLIST_FILE = "bubbleviewTests/bubbleviewTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../OCMock\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "Testflight Release";
+		};
+		64C47BC1148D49BB005A541C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					i386,
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
+				PRIVATE_HEADERS_FOLDER_PATH = include/private;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64C47BC2148D49BB005A541C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					i386,
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
+				PRIVATE_HEADERS_FOLDER_PATH = include/private;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C47BC4148D49BB005A541C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/bubbleview.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bubbleview/bubbleview-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				OTHER_LDFLAGS = (
+					"${inherited}",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		64C47BC5148D49BB005A541C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/bubbleview.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bubbleview/bubbleview-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				OTHER_LDFLAGS = (
+					"${inherited}",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		64C47BC7148D49BB005A541C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bubbleview/bubbleview-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"${inherited}",
+					"${PROJECT_DIR}/../OCMock",
+				);
+				INFOPLIST_FILE = "bubbleviewTests/bubbleviewTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../OCMock\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64C47BC8148D49BB005A541C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bubbleview/bubbleview-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"${inherited}",
+					"${PROJECT_DIR}/../OCMock",
+				);
+				INFOPLIST_FILE = "bubbleviewTests/bubbleviewTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../OCMock\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C47B99148D49BA005A541C /* Build configuration list for PBXProject "bubbleview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C47BC1148D49BB005A541C /* Debug */,
+				64C47BC2148D49BB005A541C /* Release */,
+				42F68C8A15C2CFFC002FD7D5 /* Testflight Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C47BC3148D49BB005A541C /* Build configuration list for PBXNativeTarget "bubbleview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C47BC4148D49BB005A541C /* Debug */,
+				64C47BC5148D49BB005A541C /* Release */,
+				42F68C8B15C2CFFC002FD7D5 /* Testflight Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C47BC6148D49BB005A541C /* Build configuration list for PBXNativeTarget "bubbleviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C47BC7148D49BB005A541C /* Debug */,
+				64C47BC8148D49BB005A541C /* Release */,
+				42F68C8C15C2CFFC002FD7D5 /* Testflight Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64C47B96148D49BA005A541C /* Project object */;
+}
