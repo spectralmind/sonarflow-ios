@@ -7,3 +7,6 @@
 [submodule "sonarflow/INKeychainAccess"]
 	path = sonarflow/INKeychainAccess
 	url = https://github.com/indragiek/INKeychainAccess.git
+[submodule "sonarflow/SNRLastFMEngine"]
+	path = sonarflow/SNRLastFMEngine
+	url = https://github.com/flyingpingu/SNRLastFMEngine.git
