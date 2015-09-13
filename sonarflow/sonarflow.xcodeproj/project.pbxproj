@@ -5313,6 +5313,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "sonarflow/free/Sonarflow-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5338,6 +5339,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "sonarflow/pro/Sonarflow-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5362,6 +5364,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"${inherited}",
@@ -5475,6 +5478,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = (
 					"${inherited}",
 					"\"${PROJECT_DIR}/../cocoalibspotify/iOS Library/View Controllers\"",
@@ -5501,6 +5505,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"${inherited}",
@@ -5528,6 +5533,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "sonarflow/pro/Sonarflow-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -5553,6 +5559,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "sonarflow/pro/Sonarflow-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -5684,6 +5691,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "sonarflow/free/Sonarflow-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -5712,6 +5720,7 @@
 					"${PROJECT_PREPROCESSOR_MACROS}",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "sonarflow/free/Sonarflow-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
