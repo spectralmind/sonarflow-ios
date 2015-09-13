@@ -22,3 +22,6 @@
 [submodule "sonarflow/GSTwitPicEngine"]
 	path = sonarflow/GSTwitPicEngine
 	url = https://github.com/spectralmind/GSTwitPicEngine.git
+[submodule "sonarflow/JSONKit"]
+	path = sonarflow/JSONKit
+	url = https://github.com/spectralmind/JSONKit.git
