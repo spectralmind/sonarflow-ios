@@ -25,3 +25,6 @@
 [submodule "sonarflow/JSONKit"]
 	path = sonarflow/JSONKit
 	url = https://github.com/spectralmind/JSONKit.git
+[submodule "sonarflow/OARequestHeader"]
+	path = sonarflow/OARequestHeader
+	url = https://github.com/spectralmind/OARequestHeader.git
