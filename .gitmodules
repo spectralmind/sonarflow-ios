@@ -16,3 +16,6 @@
 [submodule "facebook"]
 	path = facebook
 	url = https://github.com/spectralmind/facebook-ios-sdk.git
+[submodule "sonarflow/ASIHTTPRequest"]
+	path = sonarflow/ASIHTTPRequest
+	url = https://github.com/spectralmind/asi-http-request.git
