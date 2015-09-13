@@ -1,0 +1,3 @@
+[submodule "OCHamcrest"]
+	path = OCHamcrest
+	url = https://github.com/hamcrest/OCHamcrest.git
