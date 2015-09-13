@@ -10,3 +10,6 @@
 [submodule "sonarflow/SNRLastFMEngine"]
 	path = sonarflow/SNRLastFMEngine
 	url = https://github.com/flyingpingu/SNRLastFMEngine.git
+[submodule "cocoalibspotify"]
+	path = cocoalibspotify
+	url = https://github.com/spectralmind/cocoalibspotify.git
