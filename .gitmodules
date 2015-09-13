@@ -31,3 +31,6 @@
 [submodule "sonarflow/OAuthConsumer"]
 	path = sonarflow/OAuthConsumer
 	url = https://github.com/spectralmind/oauthconsumer.git
+[submodule "sonarflow/yajl"]
+	path = sonarflow/yajl
+	url = https://github.com/spectralmind/yajl-objc.git
