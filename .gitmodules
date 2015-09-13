@@ -13,3 +13,6 @@
 [submodule "cocoalibspotify"]
 	path = cocoalibspotify
 	url = https://github.com/spectralmind/cocoalibspotify.git
+[submodule "facebook"]
+	path = facebook
+	url = https://github.com/spectralmind/facebook-ios-sdk.git
