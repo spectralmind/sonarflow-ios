@@ -28,3 +28,6 @@
 [submodule "sonarflow/OARequestHeader"]
 	path = sonarflow/OARequestHeader
 	url = https://github.com/spectralmind/OARequestHeader.git
+[submodule "sonarflow/OAuthConsumer"]
+	path = sonarflow/OAuthConsumer
+	url = https://github.com/spectralmind/oauthconsumer.git
