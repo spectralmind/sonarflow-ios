@@ -1,3 +1,6 @@
 [submodule "OCHamcrest"]
 	path = OCHamcrest
 	url = https://github.com/hamcrest/OCHamcrest.git
+[submodule "OCMock"]
+	path = OCMock
+	url = https://github.com/erikdoe/ocmock.git
