@@ -19,3 +19,6 @@
 [submodule "sonarflow/ASIHTTPRequest"]
 	path = sonarflow/ASIHTTPRequest
 	url = https://github.com/spectralmind/asi-http-request.git
+[submodule "sonarflow/GSTwitPicEngine"]
+	path = sonarflow/GSTwitPicEngine
+	url = https://github.com/spectralmind/GSTwitPicEngine.git
