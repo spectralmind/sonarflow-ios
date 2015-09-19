@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Sonarflow iOS App is a fun, simple and interactive way to discover new music on  iPhone and iPad. It allows to visually browse one’s music collection on the device and discover new music online.
+The Sonarflow iOS App is a fun, simple and interactive way to discover new music on  iPhone and iPad. It allows to visually browse oneâ€™s music collection on the device and discover new music online.
 
 The app targets iOS 5 and 6 and was available in the Apple App Store from 2010 until 2014. It has been downloaded over 150,000 times.
 
@@ -23,7 +23,7 @@ Spectralmind was an innovative media technology company founded 2008 by a group 
 
 Thomas Lidy, Ewald Peiszer, Johann Waldherr and Wolfgang Jochum
 
-Spectralmind’s audio analysis and music discovery applications allow computers to hear music in a similar way as humans do and consequently to find and recommend music by its mere content. This technology is an enabler for solutions in media search, categorization and recommendation.
+Spectralmindâ€™s audio analysis and music discovery applications allow computers to hear music in a similar way as humans do and consequently to find and recommend music by its mere content. This technology is an enabler for solutions in media search, categorization and recommendation.
 
 In addition to Sonarflow iOS App, Spectralmind also created Sonarflow Android App and SEARCH by Sound Platform for audio content analysis (see below).
 
@@ -46,15 +46,13 @@ It has a number of dependencies that are included as git submodules.
 
 After cloning this project, execute
 
-git submodule update --init --recursive
+`git submodule update --init --recursive`
 
 It will pull the additional dependencies from further git repositories and place them in the according subdirectories.
 
 Then open sonarflow.xcworkspace in Xcode.
 
 ### Known issues
-
-*This repository references submodules from the Spectralmind development server which is not available anymore.* These submodules refers to 3rd party libraries like OCHamcrest, OCMock and others. We plan to update the references soon so that the source code can be built without hassle.
 
 Note that the app has been built for iOS 5 and 6 and has not yet been ported to iOS 7 or above.
 
