@@ -42,6 +42,16 @@ Spectralmind's open source software is comprised of four repositories:
 
 The source code is organised as an XCode project.
 
+It has a number of dependencies that are included as git submodules.
+
+After cloning this project, execute
+
+git submodule update --init --recursive
+
+It will pull the additional dependencies from further git repositories and place them in the according subdirectories.
+
+Then open sonarflow.xcworkspace in Xcode.
+
 ### Known issues
 
 *This repository references submodules from the Spectralmind development server which is not available anymore.* These submodules refers to 3rd party libraries like OCHamcrest, OCMock and others. We plan to update the references soon so that the source code can be built without hassle.
