@@ -2610,8 +2610,6 @@
 				D6DB0F811589D3AC009557AF /* Appirater.m */,
 				6493825A132D0899006A3FD1 /* SFMediaItemHelper.h */,
 				6493825B132D0899006A3FD1 /* SFMediaItemHelper.m */,
-				6493825A132D0899006A3FD1 /* SFMediaItemHelper.h */,
-				6493825B132D0899006A3FD1 /* SFMediaItemHelper.m */,
 				6493822F132D0899006A3FD1 /* PlaybackDelegate.h */,
 				64938202132D0899006A3FD1 /* Configuration.h */,
 				64938203132D0899006A3FD1 /* Configuration.m */,
@@ -3663,7 +3661,6 @@
 		64F3E325157F38870040542B /* Native */ = {
 			isa = PBXGroup;
 			children = (
-				646C7D0813323BDB001702FE /* CoreData */,
 				646C7D0413323A7C001702FE /* Loader */,
 				641FA35113324955005E64D0 /* Player */,
 				644E00971583C1CD00F521B8 /* Playlist */,
@@ -3800,7 +3797,7 @@
 			name = SonarflowFreeTests;
 			productName = SonarflowFreeTests;
 			productReference = 641C6E0315D3BECD004175F5 /* SonarflowFreeTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		64AE87CE15BD3DDD000EAC59 /* SonarflowSpotify */ = {
 			isa = PBXNativeTarget;
@@ -5301,6 +5298,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ADMOB_ID = a14cea5fdbe4352;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FACEBOOK_APP_ID = 142415069162615;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5316,6 +5316,7 @@
 				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "sonarflow/free/Sonarflow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/google_analytics\"",
@@ -5681,6 +5682,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ADMOB_ID = a14cea5fdbe4352;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FACEBOOK_APP_ID = 142415069162615;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5697,6 +5701,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "sonarflow/free/Sonarflow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/google_analytics\"",
@@ -5710,6 +5715,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ADMOB_ID = a14cea5fdbe4352;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FACEBOOK_APP_ID = 142415069162615;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5726,6 +5734,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "sonarflow/free/Sonarflow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/google_analytics\"",
