@@ -38,12 +38,20 @@
 
 - (id)initWithTitle:(NSString *)title delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle okButtonTitle:(NSString *)okayButtonTitle textFieldPlaceholder:(NSString *)placeholder {
     if(self = [super initWithTitle:title message:@" \n " delegate:delegate cancelButtonTitle:cancelButtonTitle otherButtonTitles:okayButtonTitle, nil]) {
-        UITextField *theTextField = [[UITextField alloc] initWithFrame:CGRectZero];
+        
+        // added by TL 07/2016:
+        self.alertViewStyle = UIAlertViewStylePlainTextInput;
+        self.textField = [self textFieldAtIndex:0];
+        self.textField.placeholder = placeholder;
+        self.textField.delegate = self; // TL: do we need this?
+        
+        // TL replaced this by the above because text field was not showing up
+        /*UITextField *theTextField = [[UITextField alloc] initWithFrame:CGRectZero];
 		theTextField.borderStyle = UITextBorderStyleRoundedRect;
 		theTextField.placeholder = placeholder;
 		theTextField.delegate = self;
         [self addSubview:theTextField];
-        self.textField = theTextField;
+        self.textField = theTextField;*/
 
 		[[NSNotificationCenter defaultCenter] addObserver:self
 												 selector:@selector(keyboardWillShow:)
@@ -64,6 +72,7 @@
 }
 
 - (NSString *)enteredText {
+    NSLog(@"entered Text: '%@'", textField.text);
     return textField.text;
 }
 
@@ -71,7 +80,7 @@
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-- (void)layoutSubviews {
+- (void)layoutSubviews {  // TL 2016: this seems to be never called
 	[super layoutSubviews];
 	
 	CGSize outerSize = self.bounds.size;
